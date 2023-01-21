@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  margin: 20px;
+}
+.input_div {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px auto;
+  width: 500px;
+}
+.input {
+  width: 48%;
+  margin-right: 2%;
+  border: 3px solid rgb(97, 97, 236);
+}
+.send_btn {
+  width: 24%;
+  margin-right: 2%;
+  background-color: rgb(97, 97, 236);
+  color: white;
+}
+.geo_btn {
+  width: 24%;
+  background-color: rgb(97, 97, 236);
+  color: white;
+}
+.chat_window {
+  text-align: center;
+}
+.chat_output {
+  display: flex;
+  margin: 10px auto;
+  width: 500px;
+  height: 500px;
+  border: 3px solid rgb(97, 97, 236);
+  overflow-y: scroll;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.chat_message {
+  word-wrap: break-word;
+  text-align: start;
+  max-width: 70%;
+  margin: 5px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+.recived {
+  background-color: #a8a6b7;
+  align-self: flex-start;
+}
+.send {
+  background-color: #a9baa1;
+  align-self: flex-end;
+}
