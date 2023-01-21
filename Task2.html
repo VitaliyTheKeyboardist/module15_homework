@@ -21,8 +21,8 @@
     <button class="screen-size">Покажи размер экрана</button>
     <script>
       let button = document.querySelector(".screen-size")
-      let width = document.documentElement.clientWidth
-      let height = document.documentElement.clientHeight
+      let width = window.screen.width
+      let height = window.screen.height
       button.addEventListener("click", showScreenSize)
       function showScreenSize() {
         alert(`Ширина экрана пользователя - ${width}px, 
